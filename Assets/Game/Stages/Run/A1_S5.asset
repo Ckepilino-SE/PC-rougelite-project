@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3343c8013baa4954b810e2cb659ee982, type: 3}
+  m_Name: A1_S5
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Stages.StageData
+  stageNumber: 5
+  stageTitle: Warden's Approach
+  kind: 0
+  act: 1
+  bossPrefab: {fileID: 0}
+  bossModifiers:
+    healthMultiplier: 1
+    speedMultiplier: 1
+    damageMultiplier: 1
+  waves:
+  - enemyPrefabs:
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    spawnInterval: 1.45
+    enemyCount: 4
+  - enemyPrefabs:
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    spawnInterval: 1.45
+    enemyCount: 5
+  - enemyPrefabs:
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    spawnInterval: 1.45
+    enemyCount: 6
+  - enemyPrefabs:
+    - {fileID: 3084949546005155658, guid: f788926cd3e5a9145a82f86c6557457c, type: 3}
+    spawnInterval: 2.5
+    enemyCount: 1
+  timeBetweenWaves: 3
+  enemyModifiers:
+    healthMultiplier: 1.6800001
+    speedMultiplier: 1.08
+    damageMultiplier: 1

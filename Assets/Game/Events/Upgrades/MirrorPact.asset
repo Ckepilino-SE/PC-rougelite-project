@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde8b0da72964db4188b482c0b26a7a6, type: 3}
+  m_Name: MirrorPact
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Upgrades.MirrorPactUpgrade
+  title: Mirror Pact
+  description: "You can\u2019t use your gun, but reflected shots do 4\xD7 damage."
+  icon: {fileID: 0}
+  accentColor: {r: 1, g: 1, b: 1, a: 1}
+  rarity: 2
+  maxStacks: 1
+  reflectDamageMultiplier: 4

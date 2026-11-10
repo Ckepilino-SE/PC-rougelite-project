@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ef54893fd2fc6429f76cfeeb6ab976, type: 3}
+  m_Name: PhaseStrike
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Upgrades.PhaseStrikeUpgrade
+  title: Phase Strike
+  description: Your dash counts as a parry. Dashing into an enemy stuns it, and shots that hit you mid-dash are reflected.
+  icon: {fileID: 0}
+  accentColor: {r: 1, g: 1, b: 1, a: 1}
+  rarity: 1
+  maxStacks: 1

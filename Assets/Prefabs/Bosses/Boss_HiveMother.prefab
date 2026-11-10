@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1778293295016571353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234932953332654063, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139506041887108456, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_Name
+      value: Boss_HiveMother
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438820487671225695, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5688808422606885567, guid: a6a0a888908a0c446858131b01aca68a, type: 3}
+    - target: {fileID: 5438820487671225695, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438820487671225695, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438820487671225695, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: scoreValue
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: lungeDamage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: parriedDamage
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: chase.maxSpeed
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: stealablePower
+      value: 
+      objectReference: {fileID: 11400000, guid: a5d09a79b4e7f794896e663adb033c7c, type: 2}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: parriedKnockback
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: chase.attackRange
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: parriedStunDuration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: chase.distanceTolerance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: chase.preferredDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821416581864553670, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: maxHealth
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526783787594197122, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.765625
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4139506041887108456, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7017990682518575509}
+  m_SourcePrefab: {fileID: 100100000, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+--- !u!1 &2440878998807927985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4139506041887108456, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+  m_PrefabInstance: {fileID: 1778293295016571353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7017990682518575509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440878998807927985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950f86b60b96cbf4a9e23feb5530348d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Enemies.Boss.BossController
+  bossName: Hive Mother
+  phases:
+  - phaseName: Brood
+    healthThreshold: 1
+    patternCooldown: 1.1
+    speedMultiplier: 1
+    telegraphMultiplier: 1
+    patterns:
+    - type: 3
+      telegraphDuration: 0.8
+      repetitions: 1
+      interval: 0.5
+      projectilePrefab: {fileID: 0}
+      projectileCount: 3
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+      summonCount: 3
+      summonRadius: 2.5
+    - type: 1
+      telegraphDuration: 0.7
+      repetitions: 4
+      interval: 0.35
+      projectilePrefab: {fileID: 0}
+      projectileCount: 12
+      spreadAngle: 0
+      rotationStep: 15
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 12
+      summonRadius: 2.5
+    - type: 0
+      telegraphDuration: 0.6
+      repetitions: 6
+      interval: 0.22
+      projectilePrefab: {fileID: 0}
+      projectileCount: 3
+      spreadAngle: 20
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 3
+      summonRadius: 2.5
+  - phaseName: Swarm
+    healthThreshold: 0.6
+    patternCooldown: 0.85
+    speedMultiplier: 1.2
+    telegraphMultiplier: 0.85
+    patterns:
+    - type: 3
+      telegraphDuration: 0.8
+      repetitions: 1
+      interval: 0.5
+      projectilePrefab: {fileID: 0}
+      projectileCount: 4
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+      summonCount: 4
+      summonRadius: 2.5
+    - type: 3
+      telegraphDuration: 0.8
+      repetitions: 1
+      interval: 0.5
+      projectilePrefab: {fileID: 0}
+      projectileCount: 2
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+      summonCount: 2
+      summonRadius: 2.5
+    - type: 1
+      telegraphDuration: 0.7
+      repetitions: 12
+      interval: 0.11
+      projectilePrefab: {fileID: 0}
+      projectileCount: 8
+      spreadAngle: 0
+      rotationStep: 22
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 8
+      summonRadius: 2.5
+    - type: 4
+      telegraphDuration: 0.7
+      repetitions: 3
+      interval: 0.5
+      projectilePrefab: {fileID: 0}
+      projectileCount: 13
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 3
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 13
+      summonRadius: 2.5
+  - phaseName: Frenzy
+    healthThreshold: 0.25
+    patternCooldown: 0.5
+    speedMultiplier: 1.3
+    telegraphMultiplier: 0.7
+    patterns:
+    - type: 1
+      telegraphDuration: 0.7
+      repetitions: 20
+      interval: 0.08
+      projectilePrefab: {fileID: 0}
+      projectileCount: 10
+      spreadAngle: 0
+      rotationStep: 18
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 10
+      summonRadius: 2.5
+    - type: 3
+      telegraphDuration: 0.8
+      repetitions: 1
+      interval: 0.5
+      projectilePrefab: {fileID: 0}
+      projectileCount: 5
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+      summonCount: 5
+      summonRadius: 2.5
+    - type: 0
+      telegraphDuration: 0.6
+      repetitions: 4
+      interval: 0.25
+      projectilePrefab: {fileID: 0}
+      projectileCount: 11
+      spreadAngle: 110
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 0
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 11
+      summonRadius: 2.5
+    - type: 4
+      telegraphDuration: 0.7
+      repetitions: 4
+      interval: 0.4
+      projectilePrefab: {fileID: 0}
+      projectileCount: 17
+      spreadAngle: 0
+      rotationStep: 0
+      trackTarget: 1
+      gapAngle: 0
+      wallSpacing: 0.7
+      gapSize: 3
+      chargeSpeed: 14
+      chargeDuration: 0.45
+      summonPrefab: {fileID: 0}
+      summonCount: 17
+      summonRadius: 2.5
+  defaultProjectile: {fileID: 3626131400054376068, guid: 01b9bce4c6e4f93489b4d0d163603e7d, type: 3}
+  projectilePoolCapacity: 400
+  summonPoolCapacity: 10
+  armoredDamageMultiplier: 0.5
+  staggeredDamageMultiplier: 2.5
+  maxPosture: 110
+  posturePerParry: 25
+  postureDecayPerSecond: 6
+  postureDecayDelay: 2.5
+  staggerDuration: 3
+  phaseInvulnerability: 1
+  phaseHitStop: 0.15

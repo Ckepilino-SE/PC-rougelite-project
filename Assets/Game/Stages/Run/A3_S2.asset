@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3343c8013baa4954b810e2cb659ee982, type: 3}
+  m_Name: A3_S2
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Stages.StageData
+  stageNumber: 2
+  stageTitle: Iron Steps
+  kind: 0
+  act: 3
+  bossPrefab: {fileID: 0}
+  bossModifiers:
+    healthMultiplier: 1
+    speedMultiplier: 1
+    damageMultiplier: 1
+  waves:
+  - enemyPrefabs:
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 1823360698671906168, guid: 7b20979620ad0844a912a98beebc719c, type: 3}
+    spawnInterval: 1.24
+    enemyCount: 7
+  - enemyPrefabs:
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 5745830518069061546, guid: 3dae3a807286a254e9d9f1228dbb9318, type: 3}
+    - {fileID: 1823360698671906168, guid: 7b20979620ad0844a912a98beebc719c, type: 3}
+    - {fileID: 1823360698671906168, guid: 7b20979620ad0844a912a98beebc719c, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    - {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+    - {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+    spawnInterval: 1.24
+    enemyCount: 8
+  - enemyPrefabs:
+    - {fileID: 3084949546005155658, guid: f788926cd3e5a9145a82f86c6557457c, type: 3}
+    - {fileID: 3978244538245321352, guid: 1b5f95879749e6547a29a0ca002185d8, type: 3}
+    - {fileID: 687768445395371607, guid: 0af7ada5e44048d4195f3083769f4c61, type: 3}
+    spawnInterval: 2.5
+    enemyCount: 1
+  timeBetweenWaves: 3
+  enemyModifiers:
+    healthMultiplier: 2.52
+    speedMultiplier: 1.22
+    damageMultiplier: 2

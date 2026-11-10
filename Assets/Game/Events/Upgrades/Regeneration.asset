@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1785d831456d2784cbb72d83c3262fd7, type: 3}
+  m_Name: Regeneration
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Upgrades.RegenerationUpgrade
+  title: Regeneration
+  description: Heal 1 health every 20 seconds.
+  icon: {fileID: 0}
+  accentColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  rarity: 0
+  maxStacks: 1
+  secondsPerHeal: 20

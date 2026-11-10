@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab5ef51fa1437a418441a9c9ebf92cd, type: 3}
+  m_Name: ChainReaction
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Upgrades.ChainReactionUpgrade
+  title: Chain Reaction
+  description: Killed enemies have a 30% chance to burst into 6 shots.
+  icon: {fileID: 0}
+  accentColor: {r: 0.3, g: 0.6, b: 1, a: 1}
+  rarity: 1
+  maxStacks: 1
+  chance: 0.3
+  projectiles: 6
+  damageMultiplier: 1

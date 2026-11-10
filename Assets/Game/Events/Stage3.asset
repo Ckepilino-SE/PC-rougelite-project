@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3343c8013baa4954b810e2cb659ee982, type: 3}
+  m_Name: Stage3
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Stages.StageData
+  stageNumber: 3
+  stageTitle: New Stage
+  waves:
+  - enemyPrefabs:
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    spawnInterval: 0.45
+    enemyCount: 25
+  - enemyPrefabs:
+    - {fileID: 1696924068151422419, guid: 90bb4d2d43be879408afc58e014199d2, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    - {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+    spawnInterval: 0.4
+    enemyCount: 30
+  - enemyPrefabs:
+    - {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    - {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+    - {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+    spawnInterval: 0.35
+    enemyCount: 30
+  - enemyPrefabs:
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    - {fileID: 4638597111390467572, guid: d6f85db782e23c94ca766a79d7e3b5aa, type: 3}
+    - {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+    - {fileID: 5832410340124838838, guid: 87ff2fd5aa02d2f4190f0cb19c9444e4, type: 3}
+    - {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+    - {fileID: 3800845825312690945, guid: 47b54bed8359caa48ac195911264539e, type: 3}
+    spawnInterval: 0.3
+    enemyCount: 45
+  timeBetweenWaves: 2.5
+  enemyModifiers:
+    healthMultiplier: 1.6
+    speedMultiplier: 1.3
+    damageMultiplier: 1.5

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdde8e20c659c2f4096f002ffb9521b8, type: 3}
+  m_Name: UpgradePool
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Upgrades.UpgradePool
+  upgrades:
+  - {fileID: 11400000, guid: a505e46ea302bc448b607070ff14330a, type: 2}
+  - {fileID: 11400000, guid: 9de232184c28bcc47afb2067b2cdb0af, type: 2}
+  - {fileID: 11400000, guid: 576576131f3694f4a81af5f0fd7911b1, type: 2}
+  - {fileID: 11400000, guid: a5bd8db65a5ce6d4fb3c7db21b99fc34, type: 2}
+  - {fileID: 11400000, guid: 939ae7ebdf36d48479712dd1c73938fe, type: 2}
+  - {fileID: 11400000, guid: 37d5da14c5afe7f42802ef7bc4a0c1f3, type: 2}
+  - {fileID: 11400000, guid: fd88933466be0e4498a0967daf6399d2, type: 2}
+  - {fileID: 11400000, guid: 005936c967262594fa39c1ace9c6a254, type: 2}
+  - {fileID: 11400000, guid: 3649de8415136d44da22695fd20f77ca, type: 2}
+  - {fileID: 11400000, guid: c943727f76995de4eac8aa5e344b2002, type: 2}
+  - {fileID: 11400000, guid: 83b77b76430a70a49990040bcdd2c60e, type: 2}
+  - {fileID: 11400000, guid: c2ba4a30dbe2b2b43a40ecbb0265220d, type: 2}
+  - {fileID: 11400000, guid: fa608c75b3c9b0947952940b2680bc8d, type: 2}
+  - {fileID: 11400000, guid: 7b0499c78131c8d4d8f1d4f3ee0735a1, type: 2}
+  - {fileID: 11400000, guid: 1aa8fb83a6fe12246aef3e3f2c69191b, type: 2}
+  - {fileID: 11400000, guid: bc791f0e41648f94099e3709a7d56222, type: 2}
+  - {fileID: 11400000, guid: 2733268ace52fec4b8133c66e967ae08, type: 2}
+  - {fileID: 11400000, guid: bb06635fe06258945beb451b0851a614, type: 2}
+  - {fileID: 11400000, guid: c9e940de49d8aa6498efae0e74378765, type: 2}
+  - {fileID: 11400000, guid: a6ea56a34fd277d41bc5953df3a4aa86, type: 2}
+  - {fileID: 11400000, guid: 2d560bb551eed2547a87b14a0f5fda19, type: 2}
+  - {fileID: 11400000, guid: 70d602b12c1e3774dae5516af27a994f, type: 2}
+  - {fileID: 11400000, guid: 88ae71c58119396458ab8f3865d76902, type: 2}
+  - {fileID: 11400000, guid: 89a40fd752500d444baa08245eeb55ca, type: 2}
+  - {fileID: 11400000, guid: 5d1e3f40de0d4414a8b61b2eef12e84d, type: 2}
+  - {fileID: 11400000, guid: 0f296386c7ceb9841828f71111f61571, type: 2}
+  - {fileID: 11400000, guid: fef2149b10772294ea5ebc6b5fbfcf39, type: 2}
+  - {fileID: 11400000, guid: 3d2456654a957204f96960ed877e1ad7, type: 2}
+  - {fileID: 11400000, guid: 468c41df4683d424090245a6eda277e9, type: 2}
+  - {fileID: 11400000, guid: a59815eb90d2af8468acf512f584b5bf, type: 2}
+  commonWeight: 60
+  rareWeight: 30
+  legendaryWeight: 10
